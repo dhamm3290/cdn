@@ -12,7 +12,6 @@ width:980px;
 /*overflow:auto;  Uncomment out to enable horizontal scrolling*/
 font-family: Arial, "Arial Unicode", monospace;
 /*Above line may be modified to use browser-friendly font if needed*/
-background-color: #EEE;
 }
 body:before {
   float: right;
@@ -52,10 +51,7 @@ li {
   font-weight: bold;
   
 }
-li:nth-child(odd) {
-    background: white;
-    width: 100%;
-}
+
 a:hover {
   color: #607D8B;
   background-color: #DDD;
@@ -67,7 +63,13 @@ list-style-type: none;        /*none   - no bullet*/
 /*list-style-type: square;      square - square solid*/
 /*list-style-type: circle;      circle - circle hollow*/
 white-space: pre;
-  
+border-style: solid;
+  margin: .5em;
+  border-radius: 5px;
+}
+
+ul:nth-child(2){
+  border-style: none;
 }
 
 .rejecttext {
