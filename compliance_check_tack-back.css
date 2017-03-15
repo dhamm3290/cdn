@@ -12,11 +12,6 @@ width:980px;
 /*overflow:auto;  Uncomment out to enable horizontal scrolling*/
 font-family: Arial, "Arial Unicode", monospace;
 /*Above line may be modified to use browser-friendly font if needed*/
-background-color: #EEE;
-}
-body:before {
-  float: right;
-  content: url(healthnow-new-york-inc-squarelogo.png);
 }
 
 body {  /*defaults for all body text*/
@@ -38,45 +33,21 @@ color: silver;
 white-space: pre;
 }
 
-a {
-  position: relative;
-  left: 0;
-  margin: .5em;
-  padding: .3em 0;
-  border-radius: 4px;
-}
-li {
-  margin: .5em;
-  padding: .3em 0;
-  height: 1.6em;
-  font-weight: bold;
-  
-}
-li:nth-child(odd) {
-    background: white;
-    width: 100%;
-}
-a:hover {
-  color: #607D8B;
-  background-color: #DDD;
-  left: .1em;
-}
 ul { /*set all list starts (bullets) to disc - can be overridden*/
 /*list-style-type: disc;        disc   - circle solid*/
 list-style-type: none;        /*none   - no bullet*/
 /*list-style-type: square;      square - square solid*/
 /*list-style-type: circle;      circle - circle hollow*/
 white-space: pre;
-  
 }
-
+    
 .rejecttext {
 color: #FF0000;//this is RED by default
 font-weight: bolder;
 }
 
 .errortext {
-color: #FF8C00;//this is AMBER by default
+color: #FFD700;//this is AMBER by default
 font-weight: bolder;
 }
 
